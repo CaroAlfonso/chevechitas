@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Telecentro </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+	<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></span>
+                    <!--	bx bx-buildings = icono del logo de la web: 
+                    http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+                    https://boxicons.com/
+                    -->
+    
+                    <span class="h4" style="color: #cf2e1f" >Chevechitas</span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="index.html">Historia</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="about.html">Variedades</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="contact.html">¡Preguntanos!</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/" >
+                            <i class="iconify" data-icon="bx:bxl-whatsapp" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></i>
+                        </a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu
+  Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class="">
+        <div class="container py-2">
+            <div class="row align-items-center justify-content-between">
+                <div class="contact-header col-lg-4">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05">Contáctanos</h1>
+                    <h3 class="h3">Si te interesa aprender a catar</h3>
+                    <p class="tipos">
+                        El momento de la cata es el más experiencial, en él se disfruta de la cerveza en todo su esplendor. Es el instante donde empiezan a trabajar todos los sentidos para ponerse en contacto y apreciar los matices y el sabor de cada uno de los estilos existentes. Una experiencia sensorial de cada Chevechitas en continuo aprendizaje y llena de nuevas sensaciones.
+                    </p>
+                </div>
+                <div class="contact-img col-lg-5 align-items-end col-md-4">
+                    <img class="rounded-circle" src="./assets/img/catar.jpg" width="500" height="400">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Contact -->
+    <section class="container py-1">
+
+        <h1 class=" card-text h4 text-left pt-3" style="color: #660d05">1.Los preparativos. - 2.El perfect serve. - 3.Su aspecto. - 4.Los Aromas. - 5.Sabor, en boca. - 6.Las valoraciones. </h1>
+        
+
+        <div class="row pb-4">
+            <div class="col-lg-4">
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="py-3 mb-2 text-center border rounded">
+                            <i class='display-6 bx bx-news'></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9  light-300">
+                        <li class="h5 mb-0">At.al Cliente</li>
+                        <li>CaroLuz</li>
+                        <li>15-1020-02340</li>
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <i class='bx bx-laptop display-6' ></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 mb-0">Contacto Técnico</li>
+                        <li>CaroLuz</li>
+                        <li>15-03020-40340</li>
+                    </ul>
+                </div>
+
+                <div class="contact row mb-4">
+                    <div class="contact-icon col-lg-3 col-3">
+                        <div class="border py-3 mb-2 text-center border rounded text-secondary">
+                            <i class='bx bx-money display-6'></i>
+                        </div>
+                    </div>
+                    <ul class="contact-info list-unstyled col-lg-9 col-9 light-300">
+                        <li class="h5 mb-0">Ventas</li>
+                        <li>CaroLuz</li>
+                        <li>15-180-340123</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <!-- Start Contact Form -->
+            <div class="col-lg-8 ">
+                <form class="contact-form row" method="post" action="#" role="form">
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300 text-tarea" id="floatingname" name="inputname" placeholder="Name">
+                            <label for="floatingname light-300">Nombre</label>
+                        </div>
+                    </div><!-- End Input Name -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300 text-tarea" id="floatingemail" name="inputemail" placeholder="Email">
+                            <label for="floatingemail light-300">Email</label>
+                        </div>
+                    </div><!-- End Input Email -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300 text-tarea" id="floatingphone" name="inputphone" placeholder="Phone">
+                            <label for="floatingphone light-300">Teléfono</label>
+                        </div>
+                    </div><!-- End Input Phone -->
+
+                    <div class="col-lg-6 mb-4">
+                        <div class="form-floating">
+                            <input type="text" class="form-control form-control-lg light-300 text-tarea" id="floatingcompany" name="inputcompany" placeholder="Company Name">
+                            <label for="floatingcompany light-300">Empresa</label>
+                        </div>
+                    </div><!-- End Input Company Name -->
+
+                    <div class="col-12">
+                        <div class="form-floating mb-4">
+                            <input type="text" class="form-control form-control-lg light-300 text-tarea" id="floatingsubject" name="inputsubject" placeholder="Subject">
+                            <label for="floatingsubject light-300">Asunto</label>
+                        </div>
+                    </div><!-- End Input Subject -->
+
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control light-300 text-tarea" rows="8" placeholder="Message" id="floatingtextarea"></textarea>
+                            <label for="floatingtextarea light-300">Mensaje</label>
+                        </div>
+                    </div><!-- End Textarea Message -->
+
+                    <div class="col-md-12 col-12 m-auto text-end">
+                        <button type="submit" class="btn btn-outline-primary rounded-pill px-3 boton">Enviar Mensaje</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- End Contact Form -->
+
+
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+   <!-- Start Footer -->
+   <footer class="bg-secondary pt-2">
+    <div class="container">
+        <div class="row py-1">
+
+            <div class="col-lg-3 col-12 align-left">
+                <a class="navbar-brand" href="index.html">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                    <span class="h4" style="color: black" >Chevechitas</span>
+                </a>
+                <p class="my-lg-4 my-2" style="color: black;">
+                    La vida es demasiado corta, beba chevechitas.
+                </p>
+                <ul class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <i class='bx bxl-facebook-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                            <i class='bx bxl-linkedin-square bx-md'></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                            <i class='bx bxl-whatsapp-square bx-md'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-400 py-2">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center light-300" style="color: #660d05;">
+                        © Copyright 2021 Chevechitas. Derechos reservados.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center light-300" style="color: #660d05;">
+                        Hecho por <a rel="sponsored" class="text-decoration-none" style= "color:#e65547" 
+                        href="https://cursophp.com.ar/" target="_blank"><strong>CaroLuz</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+
+</body>
+
+</html>

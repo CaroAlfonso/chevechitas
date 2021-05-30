@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Chevechitas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+  <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+  <!----- icono para apple y safari --> 
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  
+  <!-- Load Require CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- iconos  -->
+  <link href="assets/css/boxicon.min.css" rel="stylesheet">
+      <!-- tipo de letra -->
+      
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></span>
+                    <!--	bx bx-buildings = icono del logo de la web: 
+                    http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+                    https://boxicons.com/
+                    -->
+    
+                    <span class="h4" style="color: #cf2e1f" >Chevechitas</span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="historia.html">Historia</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="about.html">Variedades</a>
+                            </li>
+                           
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="contact.html">¡Preguntanos!</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/" >
+                            <i class="iconify" data-icon="bx:bxl-whatsapp" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></i>
+                        </a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Close Header -->
+
+<!-- Start Team Member -->
+<section class="container py-1">
+    <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+        <div class="col-lg-6">
+            <h2 class="h2 py-5 typo-space-line" style="color: #660d05;">Parecidas, pero no iguales.</h2>
+            <p class="light-300">
+                Son parientes cercanos, y se utilizan por su diseño simple y práctico.
+            </p>
+        </div>
+
+        <div class="col-lg-6 row">
+            <div class="team-member col-md-6">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/vaso.jpg" alt="Vaso Americano">
+                <ul class="team-member-caption list-unstyled text-center pt-4 light-300">
+                    <li>VASO AMERICANO</li>
+                    <li>El simple y práctico vaso de pinta es ligeramente más ancho en la boca que en la base, siendo de 16 onzas (473 ml).<br>
+
+                        Los encontrará en un gran número en bares y restaurantes de Estados Unidos, donde se utiliza para servir una amplia gama de estilos de cerveza. <br> BENEFICIOS: Su popularidad se debe al hecho de que es relativamente barato de fabricar y fácil de limpiar y almacenar, además de que es fácil de beber.</li>
+                </ul>
+            </div>
+            <div class="team-member col-md-6">
+                <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/pintaimperial.jpg" alt="Vaso imperial">
+                <ul class="team-member-caption list-unstyled text-center pt-4 light-300">
+                    <li>VASO DE PINTA IMPERIAL</li>
+                    <li>El vaso de pinta imperial es de uso múltiple.
+
+                        A diferencia de su homólogo estadounidense, la pinta imperial contiene 20 onzas (568 ml).
+                        
+                        También difiere en que presenta un pequeño labio en la boca.
+                        <br>
+                        BENEFICIOS:
+                        Los mismos que la versión americana.
+                        Recomendado para
+                        Considéralo tu vaso básico, ideal para ale y lager británicas como pale ale, IPA, amber y red ale, brown ale, milk stout, oatmeal stout, porter y Scotch ale.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Team Member -->
+
+<!-- Start Contact -->
+<div class="row gy-5 g-lg-1 mb-3">
+    <div class="col-md-4 mb-3">
+        <a class="card border-0 shadow-lg overflow-hidden">
+            <img class="card-img mb-1" src="./assets/img/vasopilsner.jpg" width="250" height="300" alt="Card image">
+            <div class="card-img-overlay d-flex align-items-end">
+                <div class="text-start mb-3 ml-3 text-dark">
+                    <h3 class="card-title light-300 h2 p-2">Vaso de Pilsnerr</h3>
+                    <p class="tipos">
+                        Alto, delgado y ligeramente más ancho en la boca, un vaso de pilsner resalta el brillo, la claridad y las burbujas de pilsners y otras cervezas más ligeras. Al mismo tiempo, ayuda a retener la cabeza (espuma) de la cerveza, lo que mantiene los aromas bajo la nariz. Normalmente, los vasos de pilsner contienen menos cerveza que un vaso de pinta, alrededor de 350 a 400 ml.<br>
+
+                        Beneficios: Muestra el color, la claridad y la carbonatación. Promueve la retención de la cabeza. Mejora los aromas.
+                        Recomendado para Pilsner, lagers americanas, bock tradicional, helles bock, maibock, Vienna lager, blonde ale, California common, witbier y lager japonesa de arroz.</p>
+
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <a class="card border-0 shadow-lg overflow-hidden">
+            <img class="card-img mb-1" src="./assets/img/vasocardo.jpg" width="250" height="300" alt="Card image">
+            <div class="card-img-overlay d-flex align-items-end">
+                <div class="text-start mb-3 ml-3 text-dark">
+                    <h3 class="card-title light-300 h2 p-2 vaso-cardo">Vaso Cardo (Thistle)</h3>
+                    <p class="tipos">
+                        Una versión modificada del vaso de tulipán, la forma de un vaso thistle se asemeja a la flor nacional de Escocia (el cardo).
+
+                        Se caracteriza por un tallo pequeño, fondo abombado y parte superior alargada que es notablemente más pronunciado que el del vaso tulipán.
+                        
+                        Fue creado especialmente para el Scotch ale.
+                        
+                        Recomendado para Ale escocés (scotch) y wee heavy.</p>
+
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <a class="card border-0 shadow-lg overflow-hidden">
+            <img class="card-img mb-1" src="./assets/img/vasocaliz.jpg" width="250" height="300" alt="Card image">
+            <div class="card-img-overlay d-flex align-items-end">
+                <div class="text-start mb-3 ml-3 text-dark">
+                    <h3 class="card-title light-300 h2 p-2">Vaso Cáliz (Goblet/Chalice)</h3>
+                    <p class="tipos">
+                        El cáliz es un gran recipiente redondo que retiene la cabeza y un tallo ancho. Los chalice tienen paredes más gruesas que los goblet. Ambos tipos pueden ser altamente decorativos y a veces presentan un grabado muy elaborado o incrustaciones de metales preciosos.
+
+                        Su diseño de boca ancha favorece los sorbos grandes y abundantes.<br>
+
+                        Beneficios: Un deleite para la vista. Diseñado para mantener la cabeza (espuma). De boca ancha para sorbos profundos.
+                        Recomendado para
+                        Cervezas fuertes y oscuras como las IPA’s belgas, Belgian strong dark ale, dubbel, tripel y quad.
+                        </p>
+
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- End Recent Work -->
+
+    
+
+
+<!-- End Progress -->
+
+<section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-lg-4" >
+                <img src="./assets/img/jarra.jpg" width="300" height="300">
+            </div>
+            <div class="col-lg-8 text-start">
+                <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Jarra de Cerveza</h1>
+                <p class="light-300 variedades">
+                    Las jarras de cerveza vienen en una variedad de formas y tamaños. Algunos incluso tienen hoyuelos. Lo que es válido para todas las jarras de cerveza, sin embargo, es el mango que sobresale de un lado. Es una característica de diseño que, como un tallo, ayuda a prevenir la transferencia de calor de la mano a la cerveza. Las jarras de cerveza también tienden a tener paredes de vidrio relativamente gruesas para mayor durabilidad y aislamiento.<br>
+
+                    Beneficios: Fácil de beber. Contiene mucho volumen.
+                    Recomendado para
+                    cervezas americanas, alemanas, inglesas e irlandesas de todo tipo.</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+</div>
+
+    <!-- Start Progress -->
+<section class="py-1">
+    <div class="container my-1">
+
+        <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Vaso IPA</h1>
+
+        <div class="creative-content row py-1">
+            <div class="col-md-6">
+                <p class=" col-lg-8 variedades light-300">Las famosas crestas del vaso IPA airean tu cerveza de lúpulo favorita con cada sorbo, liberando aromas en el proceso. Mientras tanto, el cuenco alto, delgado y cónico concentra y dirige esos aromas del lúpulo a la nariz. Algunos vasos IPA también están sellados en la parte inferior para ayudar a liberar la carbonatación y promover un flujo constante de burbujas en cascada.<br>
+                    BENEFICIOS:
+                    Potencia una de las mejores cualidades de las IPA, sus aromas.
+                    Recomendado para cualquiera de las variedades IPA.
+                </p>
+            </div>
+
+            <div class="creative-progress col-md-6 ">
+
+                <div class="row mt-4 mt-sm-2 ">
+                    <div class="col-6">
+                        <h4 class="h5">Rubia</h4>
+                    </div>
+                    <div class="col-6 text-right">44%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 44%" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <div class="row mt-4 mt-sm-2">
+                    <div class="col-6">
+                        <h4 class="h5">Roja</h4>
+                    </div>
+                    <div class="col-6 text-right">56%</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="col-lg-3 team-member-img img-fluid rounded-circle p-3" >
+                        <img src="./assets/img/vasoipa.jpg" width="250" height="250">
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-9 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Vaso tulipán (o vaso Belga)</h1>
+                    <p class="light-300 variedades">
+                        Con un cuerpo abombado y un labio acampanado, el vaso tulipán está diseñado para generar la cabeza (espuma) y promover el aroma y el sabor de las ale belgas y otras cervezas de malta y lúpulo.
+
+                        Su corto tallo facilita el remolino, mejorando aún más la experiencia sensorial de la cerveza.<br>
+
+                        BENEFICIOS: Captura y mejora los aromas, a la vez que genera y mantiene grandes cabezas espumosas.
+                        Recomendado para
+                        Belgian (strong ale, dark ale, IPA, pale ale), barleywine, imperial/double IPA, bière de garde, Flanders red ale, fruit lambic, gueuze, American wild ale, saison y ale escocés.</p>
+                </div>
+                <div class="col-lg-3" >
+                    <img src="./assets/img/vasotulipan.jpg" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+     <!-- Start Footer -->
+     <footer class="bg-secondary pt-2">
+        <div class="container">
+            <div class="row py-1">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                        <span class="h4" style="color: black" >Chevechitas</span>
+                    </a>
+                    <p class="my-lg-4 my-2" style="color: black;">
+                        La vida es demasiado corta, beba chevechitas.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-400 py-2">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center light-300" style="color: #660d05;">
+                            © Copyright 2021 Chevechitas. Derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center light-300" style="color: #660d05;">
+                            Hecho por <a rel="sponsored" class="text-decoration-none" style= "color:#e65547" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>CaroLuz</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</body>
+
+</html>

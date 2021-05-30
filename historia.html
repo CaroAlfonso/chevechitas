@@ -1,0 +1,507 @@
+<!DOCTYPE html>     <!----- definición de html 5 -->          
+<html lang="es"> 	<!----- definición del lenguaje -->  
+					<!------Inicio del  HEAD -->
+<head>
+  <title>Chevechitas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+	<!----- icono para apple y safari --> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- tipo de letra -->
+        
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+<body>
+    <!-- Header 
+	nav = cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual 
+	o a otros documentos
+	-->
+
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+	
+	<!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+	navbar-light = texto negro de la letra
+	bg-white = fondo de color blanco
+	-->
+
+        <div class="container d-flex justify-content-between align-items-center">
+		
+            <a class="navbar-brand h1" href="index.html">
+			<!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></span>
+				<!--	bx bx-buildings = icono del logo de la web: 
+				http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+				https://boxicons.com/
+				-->
+
+	            <span class="h4" style="color: #cf2e1f" >Chevechitas</span></a>
+			
+			<!--	boton de hamburguesa --> 
+  	          <button class="navbar-toggler border-0" 
+				type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar-toggler-success" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+            </button>
+		<!------------------------------------------- Opciones del Menu		-->
+		<div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+		id="navbar-toggler-success">
+		
+		<!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+		por un punto de interrupción principal.
+		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+		directos en elementos flexibles
+		-->
+  		              <div class="flex-fill mx-xl-5 mb-2">
+				<!--	  mx=para clases que establecen tanto *-lefty*-right-->
+ 	                   <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+					<!--   .navbar-nav para una navegación ligera y de altura completa 
+					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="index.html">Historia</a>
+						<!-- px = padding y mx es el margin 
+						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="about.html">Variedades</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 boton" href="contact.html">¡Preguntanos!</a>
+                        </li>
+                    </ul>
+                </div>
+
+<!---------------------------------------------------------Fin de las opciones del menu
+------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+                    <a class="text-light" target="_blank" href="https://www.whatsapp.com/" >
+                        <i class="iconify" data-icon="bx:bxl-whatsapp" data-inline="false" alt= "" width= "30" heigt="24" style="color: #cf2e1f"></i>
+                    </a>
+                    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+<!----------------------------------------------------------- Fin de los iconos del menu
+
+    Close Header -->
+ <!----------------------------------------------------------- Fin del Header-->
+
+	<!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-9 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Los Sumerios</h1>
+                    <p class="light-300 variedades">La primera receta escrita que prueba la existencia de la cerveza se encontró en el pueblo sumerio, la primera gran civilización de Oriente Medio, donde el arte de prepararla era bastante común, sobre todo entre las mujeres. Su deidad de la cerveza, la diosa Ninkasi, cuenta como las féminas se encargaban de elaborar pan de cebada especiado y lo dejaban fermentar con agua en tinajas de agua. Pasados unos días, ya existían catadores expertos que lo probaban y bebían en pajillas para evitar el paso del grano de la superficie. Sin embargo, y aunque no podemos concebirla como la cerveza actual, la ‘sikaru’ (“lo que desea la boca”) se hacía en hornos de malteado en distintas tonalidades, más ligeras o fuertes.</p>
+                </div>
+                <div class="col-lg-3" >
+                    <img src="./assets/img/losSumerios1.png" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5">“Quien bebe <strong>cerveza</strong> es rápido en dormirse; quien duerme bastante no peca y entra al cielo. Así que, ¡bebamos cerveza!”</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+<section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-lg-4" >
+                <img src="./assets/img/antiguoEgipto1.png" width="300" height="300">
+            </div>
+            <div class="col-lg-8 text-start">
+                <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">El Antiguo Egipto</h1>
+                <p class="light-300 variedades">
+                    El gran potencial de la cerveza o ‘zithum’ (como la llamaban), tras Alemania y EE.UU siglos más tarde, sin duda se lo llevaron los egipcios. Perfeccionaron la receta, y como regalo de los dioses, atribuían su invención a la Diosa Osiris. Junto a las cebollas o el pan, formaba parte de la dieta básica de la mayoría de la población. En época de los faraones adquirió una sólida dimensión industrial. Sus fábricas producían ¡nada menos que 4 millones de litros por año en tiempos de Ramsés II! Tanto, que los graneros estaban prácticamente destinados a la cebada para su elaboración y la utilizaban como moneda de cambio.  </p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5"> “Creo en la gente. Si se les da la verdad, uno puede encarar cualquier crisis nacional. El problema es darles los hechos reales. Y <strong>cerveza</strong>”.</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-9 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Grecia</h1>
+                    <p class="light-300 variedades">
+                        El ‘zythum’ o ‘vino de cebada’ era la cerveza más popular en la civilización griega. Los más antiguos la consideraban como la bebida nacional egipcia por excelencia, heredando sus métodos y recetas.
+
+                        Se puede decir que los griegos fueron poco aficionados a consumirla, a diferencia de sus vecinos los frigios, de la antigua región de Asia Menor, donde el Rey Midas dejó en las ánforas de su tumba restos de la cerveza que bebían en aquella época. Una cerveza especial de esta época a base de cebada, uvas y miel ha vuelto a resurgir en el S.XX gracias la técnica de la arqueología molecular.</p>
+                </div>
+                <div class="col-lg-3" >
+                    <img src="./assets/img/grecia1.png" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+     <!-- Start Service -->
+     <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5"> “Si para el amor no hay edad, para la <strong>cerveza</strong> tampoco”.</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    
+
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-4" >
+                    <img src="./assets/img/edadMedia1.png" width="300" height="300">
+                </div>
+                <div class="col-lg-8 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Edad Media</h1>
+                    <p class="light-300 variedades">
+                        Con el triunfo de los bárbaros el consumo de cerveza se desplaza hacia el norte de Europa, volviendo a un entorno más familiar. Durante Carlomagno y su imperio en el siglo IX la cerveza adquirió gran apogeo. Poco a poco se va instaurando un nuevo orden cristiano que fomenta la vida urbana, los mercados y los gremios. Y aquí es donde el hombre será el gran protagonista del saber hacer de la cerveza, a través de pequeños comercios. Sin embargo, será en los monasterios donde se concentrará la auténtica producción cervecera. Por poseer tanto los ingredientes gracias a las tierras de cultivo, como el conocimiento de los procesos de producción.
+
+                        El año 1000 marca el uso del gruit a base de plantas y especias para aromatizarla, por el descubrimiento del lúpulo. La abadesa Santa ‘Hildegarga de Bingen’, es la primera en añadirlo a la cerveza antes de fermentarse.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5">"La mejor <strong>cerveza</strong> no es la más cara, sino la que se comparte"</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-9 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Edad Moderna</h1>
+                    <p class="light-300 variedades">
+                        Los costosos impuestos del gruit que repercutían en la Iglesia, propiciaron paralelamente el nacimiento de la Liga Hanseática de un grupo de villas ‘libres’ de la Iglesia del Norte de Europa, que no obligadas al empleo del gruit, comprobaron como el lúpulo prolongaba exitosamente la duración de la cerveza.
+
+                        Los flamencos que emigraron a Inglaterra sobre el 1500 llevaron el lúpulo hasta las islas británicas, y aunque tardaron tiempo en aceptarlo, hacia el 1600 ya lo incorporaban la mayoría de cervezas. Esta época de transición hizo que convivieran al mismo tiempo y se distinguieran las cervezas sin lúpulo tradicionales (ale) de las cervezas con lúpulo importadas de la Europa Continental o ‘beers’.</p>
+                </div>
+                <div class="col-lg-3" >
+                    <img src="./assets/img/edadModerna1.png" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5"> “En la vida hay que tomarse todo con calma, menos la <strong>cerveza</strong>”.</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-4" >
+                    <img src="./assets/img/leyPureza1.png" width="300" height="300">
+                </div>
+                <div class="col-lg-8 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Ley de Pureza Bávara</h1>
+                    <p class="light-300 variedades">
+                        El fin de la Edad Media marca el final del monopolio de la cerveza por los monjes que pasa a manos laicas, siendo Baviera el lugar donde nació un nuevo fermento, producto de la manipulación del hombre.
+
+                        La materia prima, pero también otras causas económicas, llevaron a la nobleza bávara y al duque Guillermo IV, que tenían concesión sobre la cebada, a regular la producción de la cerveza con la ‘Ley de Pureza de 1516’, donde se establecía que debía contener únicamente agua, malta, lúpulo y levadura, y que se ha prolongado hasta el S. XIX.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- Start Service -->
+    <section class="service-wrapper py-3">
+        <div class="container-fluid pb-1">
+            <div class="row">
+                <div class="service-header col-2 col-lg-3 text-end light-300">
+                    <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                </div>
+                <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                    <h2 class="h5">“Quien bebe <strong>cerveza</strong> vive menos estresado, menos preocupado, menos triste y menos amargado”</h2>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-1">
+                <div class="col-lg-9 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">La Aparición de la Cerveza Lager</h1>
+                    <p class="light-300 variedades">
+                        El S. XVI marcó también importantes avances en la industria cervecera. El descubrimiento de la baja fermentación y las cervezas Lager nuevamente a manos de los monjes. Los monasterios de Baviera comenzaron a almacenar las cervezas fermentadas en bodegas subterráneas manteniéndolas frescas durante todo el año.
+
+                        El duque de Albercht V prohibió su fabricación entre abril y septiembre. De ahí surge la conservación de la cerveza en ‘lagered’ o almacenes durante el invierno, dando lugar a un fermento más claro, limpio y estable, que podría representar a la actual cerveza lager, pero algo más oscura que las estilo lager actuales.</p>
+                </div>
+                <div class="col-lg-3" >
+                    <img src="./assets/img/cervezaLager1.png" width="300" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+<!-- Start Service -->
+<section class="service-wrapper py-3">
+    <div class="container-fluid pb-1">
+        <div class="row">
+            <div class="service-header col-2 col-lg-3 text-end light-300">
+                <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+            </div>
+            <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                <h2 class="h5"> “La <strong>cerveza</strong> es siempre la respuesta, hasta que te olvidas la pregunta”.</h2>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+
+<section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-lg-4" >
+                <img src="./assets/img/estiloPilsen1.png" width="300" height="300">
+            </div>
+            <div class="col-lg-8 text-start">
+                <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">El Nacimiento Estilo Pilsen</h1>
+                <p class="light-300 variedades">
+                    La historia de la cerveza hace detenerse en el año 1842, donde surgió un estilo de cerveza de gran repercusión hasta nuestros días. El maestro cervecero alemán Joseph Grolle que estaba trabajando en la ciudad de Pilsen, lideró una cooperativa cervecera local con el objetivo de descubrir una cerveza que pudiera competir con el éxito de las lagers oscuras de la vecina Baviera.
+
+                    Hasta que dio con la fórmula magistral: una lager dorada y transparente como nunca antes se había visto. ¿El secreto? Un control de la temperatura durante el proceso de malteado obteniendo un color dorado. La selección de cepas de la levadura también ayudaron para la fermentación, logrando una mayor transparencia. Con el estilo pilsener consagró uno de los estilos más consumidos y apreciados en numerosas partes del mundo.</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- Start Service -->
+<section class="service-wrapper py-3">
+    <div class="container-fluid pb-1">
+        <div class="row">
+            <div class="service-header col-2 col-lg-3 text-end light-300">
+                <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+            </div>
+            <div class="service-heading col-10 col-lg-8 text-start float-end light-300">
+                <h2 class="h5">“Quien inventó la <strong>cerveza</strong> fue un hombre sabio”</h2>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- Start Banner Hero -->
+<section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-1">
+            <div class="col-lg-9 text-start">
+                <h1 class="h2 py-5 typo-space-line" style="color: #660d05;">Nuevas Tendencias</h1>
+                <p class="light-300 variedades">
+                    El S.XX, a partir de los años 70, y especialmente los 90 hasta la actualidad, toman un talante distinto en cuanto al modo de concebir la cerveza, donde la diversidad y la calidad resurgen en todo su esplendor. Los norteamericanos viajan hasta las culturas más tradicionales de la cerveza europea, recreando los estilos por los que sienten fascinación, y nace así una nueva forma de preparar cerveza que genera el movimiento ‘homebrewing’. Nuevas tendencias que recuperan las cervezas más tradicionales y perdidas por el paso del tiempo.
+
+                    Las witbier belgas de trigo, o las amargas y las aromáticas India Pale Ale (IPA) desparecidas en Inglaterra, se pueden volver a disfrutar plenamente. A partir de aquí la cultura de la cerveza se vuelve más intensa que nunca.</p>
+            </div>
+            <div class="col-lg-3" >
+                <img src="./assets/img/nuevasTendencias1.png" width="300" height="300">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Hero -->
+
+    <!-- Start Footer -->
+    <footer class="bg-secondary pt-2">
+        <div class="container">
+            <div class="row py-1">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify" data-icon="ion:beer" data-inline="false" alt= "" width= "30" heigt="24" style="color: black"></span>
+                        <span class="h4" style="color: black" >Chevechitas</span>
+                    </a>
+                    <p class="my-lg-4 my-2" style="color: black;">
+                        La vida es demasiado corta, beba chevechitas.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-400 py-2">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center light-300" style="color: #660d05;">
+                            © Copyright 2021 Chevechitas. Derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center light-300" style="color: #660d05;">
+                            Hecho por <a rel="sponsored" class="text-decoration-none" style= "color:#e65547" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>CaroLuz</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+   <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>	
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+   
+</body>
+
+</html>
