@@ -1,0 +1,281 @@
+/*
+---------------------------------------------
+Índice
+------------------------------------------------
+1. Typography
+2. Main Nav
+3. Home
+4. About
+5. Work
+6. Single Work
+7. Pricing
+8. Contact
+--------------------------------------------- */
+
+html {font-family: 'Odibee Sans', cursive;}
+body {background-color: palegoldenrod;}
+/* Typography */
+p, a {font-family: 'Odibee Sans', cursive; font-weight: 400; font-size: 25px; color: #cf2e1f;}
+.h1 {font-family: 'Odibee Sans', cursive; font-size: 40px; color: #cf2e1f;}
+.h2 {font-family: 'Odibee Sans', cursive; font-size: 40px; color: #cf2e1f;}
+.h3 {font-family: 'Odibee Sans', cursive; font-size: 28px; color: #cf2e1f;}
+.h4 {color: #660d05;}
+.light-300 {
+  font-family: 'Odibee Sans', cursive !important;
+  font-weight: 300;
+}
+.regular-400 {
+  font-family: 'Odibee Sans', cursive !important;
+  font-weight: 400;
+}
+.semi-bold-600 {
+  font-family: 'Odibee Sans', cursive !important;
+  font-weight: 600;
+}
+.typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #cf2e1f;
+  padding-top: .5em;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+/* Main Nav */
+#main_nav .nav-item .nav-link:hover {color: #cf2e1f;}
+/* Home */
+#index_banner {
+  background-image: url('./../img/copas.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 60vh;
+  width: 100%;
+}
+#index_banner .carousel-item {
+  min-height: 60vh;
+}
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+  color: #660d05 !important;
+  text-decoration: none;
+  font-size: 4em;
+}
+#index_banner .carousel-inner {
+  height: 80vh;
+}
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+  background-color: #660d05 !important;
+  // las rayas de abajo del carrousel van de color azul
+}
+.service-wrapper .service-footer {
+  max-width: 720px;
+}
+.service-work.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.service-work .service-work-vertical {
+	background: rgb(102, 13, 5);
+  background: linear-gradient(0deg, rgba(102, 13, 5) 0%, rgba(0,0,0,0) 33.33%, rgba(102, 13, 5) 66.66%, rgba(255,255,255,0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .7s;
+}
+.service-work .service-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.service-work .service-work-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s;
+}
+.recent-work.card{
+  border-radius: 10px !important;
+}
+.recent-work .recent-work-vertical {
+	background: rgb(102, 13, 5);
+  background: linear-gradient(0deg, rgba(102, 13, 5) 0%, rgba(255,255,255,0) 33.333%, rgba(102, 13, 5) 66.666%, rgba(255,255,255,0) 99.999%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .9s;
+  cursor: pointer;
+}
+.recent-work .recent-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.recent-work .recent-work-vertical:hover div.recent-work-content {
+  top: 30%;
+  margin-top: -2.5em;
+  position: absolute;
+}
+.recent-work .recent-work-vertical:hover * {
+  
+  transition: .7s;
+}
+/* About */
+#work_banner {
+  background-image: url('./../img/banner-bg-02.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.progress {
+  height: 8px;
+}
+.objective-icon {
+  border-radius: 13px;
+  width: 8rem;
+}
+.partner-wap {
+  background-color: #7276ec;
+  transition: 1s;
+  cursor: pointer;
+}
+.partner-wap:hover {
+  background-color: #b1b3f5;
+}
+
+.team-member-img {
+  transition-duration: 0.15s;
+  width: 250px;
+  height: 250px;
+}
+.team-member:hover .team-member-img {
+  padding: 10px !important;
+}
+
+
+/* Work */
+/* Singel Work */
+#work_single_banner {
+  background-image: url('./../img/banner-bg-02.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.related-content {
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Pricing */
+.pricing-list {
+  margin-bottom: 1px;
+}
+.pricing-table {
+  max-width: 350px;
+  margin: auto;
+}
+.pricing-table,
+.pricing-horizontal {
+  border-radius: 15px !important;
+}
+/* Contact */
+#floatingtextarea {
+  height: 150px
+}
+/* Footer */
+footer a.text-light:hover {
+  color: #bfbfbf !important;
+  transition-duration: 0.15s;
+}
+.h4 {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 25px;
+  color: #cf2e1f;
+}
+.nav-link {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 25px;
+  color: #cf2e1f;
+}
+
+.nav-link:hover {
+  color: #cf2e1f;
+}
+
+.container {
+color: #cf2e1f;
+font-family: 'Odibee Sans', cursive;  
+}
+
+.navbar-brand {
+  color: #cf2e1f;
+}
+
+.banner-button {
+  font-family: 'Odibee Sans', cursive;
+  font-size: 40px;
+  color: palegoldenrod;
+  border-color: palegoldenrod;
+}
+.banner-button:hover {
+  color: #e65547; 
+  background-color:#660d05;
+  border-color: #e65547;
+}
+
+
+.boton:hover {
+  background-color:#660d05;
+  border-color: #e65547
+}
+
+
+.card-text {
+  color:palegoldenrod;
+}
+.bg-secondary {
+  background-image: url('./../img/bannercerveza.jpg');
+  opacity: 0.8;
+}
+.light-300 {
+  color: #000;
+}
+.btn-outline-light {
+  color: palegoldenrod;
+  border-color: palegoldenrod;
+}
+
+.btn-outline-light:hover {
+  color: palegoldenrod;
+  background-color: #e65547;
+}
+
+.bx {
+  color: #000;
+}
+.w-400 {
+  background-color: palegoldenrod;
+}
+.variedades {
+  font-size: 20px;
+}
+.team-member-caption {
+  color: #000;
+}
+.tipos {
+  font-size: 17px;
+  color: black;
+}
+.vaso-cardo {
+  color: #cf2e1f;
+}
+
+.boton {
+  color: #660d05;
+  border-color: #660d05;
+}
+.form-floating {
+  color: #660d05;
+}
+.text-tarea {
+  border-color: #660d05;
+}
